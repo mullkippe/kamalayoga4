@@ -1,0 +1,327 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.access-img {
+    background-image: url(../images/yogaretreat/retreattop.png);
+    background-size: cover;
+    padding-bottom: 370px;
+    background-position: center;
+
+    margin-top: 20px;
+
+}
+
+.wrapper .heading {
+    text-align: center;
+}
+
+.retreat-textwrapper p {
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: justify;
+    color: rgb(51, 51, 51);
+    letter-spacing: .15em;
+
+}
+
+.retreat-text {
+    margin-top: 1em;
+}
+
+
+/* 20201116
+とある一日の様子はここからスタートします。
+
+＃＃＃＃＃＃＃＃＃＃                     */
+.schedule-contents {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.schedule-area > div {
+    padding-bottom: 25px;
+}
+
+.schedule-area {
+
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.schedule-area img {
+    padding-top: 50px;
+}
+
+.schedule-title {
+    background-color: rgba(149, 194, 182, 0.2);
+    color: #95c2b6;
+    padding: 10px;
+    width: 18em;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 0.13em;
+    margin-bottom: 10px;
+}
+
+.schedule-right {
+    flex-basis: 40%;
+}
+
+.schedule-left {
+    flex-basis: 40%;
+}
+
+.schedule-text {
+
+    text-align: justify;
+    line-height: 2;
+    color: rgb(51, 51, 51);
+    padding-top: 1px;
+    padding-left: 0.2em;
+    font-size: 12px;
+    letter-spacing: 0.38em;
+}
+
+
+/* 20201116
+ご質問BOXはここからスタートします。
+
+＃＃＃＃＃＃＃＃＃＃                     */
+.qa-list dl {
+    position: relative;
+    margin: 30px 0 0;
+    cursor: pointer;
+    border: 1px solid #DDD;
+}
+
+.qa-list dl:first-child {
+    margin-top: 0;
+}
+
+.qa-list dt::after {
+    position: absolute;
+    top: 27px;
+    right: 26px;
+    display: block;
+    width: 7px;
+    height: 7px;
+    margin: auto;
+    content: '';
+    transform: rotate(135deg);
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+.qa-list .open::after {
+    transform: rotate(-45deg);
+}
+
+.qa-list dl dt {
+    position: relative;
+    margin: 0;
+    padding: 20px 20px 20px 60px;
+    font-weight: bold;
+    background: #fff;
+   
+}
+dd {
+  display: none;
+    
+}
+
+.qa-list dl dt::before {
+    font-size: 22px;
+    line-height: 1;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: block;
+    content: 'Q.';
+    color: #95c2b6;
+}
+
+.qa-list dl dd::before {
+    font-size: 22px;
+    line-height: 1;
+    position: absolute;
+    left: 20px;
+    display: block;
+    content: 'A.';
+    font-weight: bold;
+    color: #95c2b6;
+}
+
+.qa-list dl dd {
+    position: relative;
+    margin: 0;
+    padding: 20px 20px 20px 60px;
+}
+
+.qa-list dl dd p {
+    margin: 30px 0 0;
+}
+
+.qa-list dl dd p:first-child {
+    margin-top: 0;
+}
+
+.qa {
+    color: rgb(51, 51, 51);
+}
+
+
+/* 20201117
+お客様の声はここからスタートします。
+
+＃＃＃＃＃＃＃＃＃＃                     */
+
+
+.headingtwo {
+    max-width: 708px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.headingtwo h2 {
+    font-size: 30px;
+    position: absolute;
+    padding-top: 190px;
+    color: rgb(51, 51, 51);
+}
+
+
+.headingtwo p.button-more {
+    font-size: 16px;
+    position: absolute;
+    top: 190px;
+    right: 20px;
+    color: rgb(51, 51, 51);
+}
+
+.headingtwo a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+
+}
+
+.headingtwo news {
+    color: #af4582;
+    padding-left: 33px;
+    padding-top: 15px;
+    padding-bottom: 47px;
+}
+
+/* 20201117
+お客様の声ボックスはここからスタートします。
+
+＃＃＃＃＃＃＃＃＃＃                     */
+.voice-list {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.voice-box {
+
+    flex-basis: 48%;
+    border: 1px solid #F2F2F2;
+    background-color: rgba(149, 194, 182, 0.2);
+    padding: 20px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+
+
+}
+
+.voice-text {
+    font-size: 0.8rem;
+    line-height: 1.5;
+    letter-spacing: .04em;
+    text-align: justify;
+
+    color: rgb(51, 51, 51);
+}
+
+.voice-box .photo {
+
+    margin-right: 20px;
+    margin-bottom: 15px;
+    height: 100px;
+    margin-left: 10px;
+}
+
+.prof {
+    display: inline-block;
+}
+
+
+.menubar {
+    margin-top: 130px;
+    margin-bottom: 70px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 800px;
+    margin: 0 auto;
+    justify-content: space-between;
+
+}
+
+
+.menu li {
+    flex-basis: 30%;
+    text-align: center;
+    font-size: 13px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    letter-spacing: .04em;
+    border: 3px solid;
+    border-color: #95c2b6;
+    border-radius: 2.5rem;
+    padding: 17px 47px;
+    display: block;
+}
+
+.menu li a:hover {
+    background-color: #95c2b6;
+    transition-property: background-color;
+    color: white;
+
+}
+
+.pricetext {
+    border: 4px solid #95c2b6;
+    border-radius: 30px;
+    padding: 30px 45px;
+    margin-top: 20px;
+}
+
+.pricetext p {
+    font-size: 14px;
+    justify-content: space-between;
+    line-height: 1.7;
+    letter-spacing: .04em;
+    text-align: justify;
+    color: rgb(51, 51, 51);
+}
+.pricetext h3 {
+    color: rgb(51, 51, 51);
+    margin-top: 20px;
+    font-size: 1.1rem;
+    border-left: 4px solid #95c2b6;
+    padding-left: 6px;
+}
+.price-btn {
+    margin-top: 46px;
+    margin-bottom: 26px;
+}
